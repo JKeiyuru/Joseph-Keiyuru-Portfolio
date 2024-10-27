@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Keiyuru</title>
+
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- header design -->
+     <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+     </header>
+
+     <!-- Home Section -->
+      <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Joseph Keiyuru</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>A passionate and adaptable developer, thriving in both frontend and backend environments, and striving to deliver seamless, user-centric digital experiences.
+                My goal is to blend creativity and logic to build impactful fullstack applications, all while constantly evolving my skillset.
+            </p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./home_img.jpeg" alt="">
+        </div>
+      </section>
+
+      <!-- About Section -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./WhatsApp Image 2024-10-16 at 19.32.56.jpeg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Developer 🖥️</h3>
+                <p>I like to think of myself as a digital artist, but instead of paint, I use HTML, CSS, and JavaScript to craft websites that are as beautiful as they are functional. When I'm not obsessing over pixels or battling the dreaded "flexbox vs. grid" conundrum, I'm ensuring every button, hover effect, and animation is ready to dazzle users. Basically, if it's on the screen, I probably styled it to perfection.</p>
+            
+                <div id="more-content" style="display: none;">
+                    <div class="more-section">
+                        <h3>Backend Developer 🔧</h3>
+                        <p>When I'm not busy making things look good on the surface, I dive deep into the backend, where the real magic happens. Databases? I've got them covered. APIs? I speak their language fluently. I enjoy the quiet power that comes with making sure everything runs smoothly behind the scenes—because even the prettiest site is nothing without a solid foundation. Oh, and I've learned to solve problems faster than you can say “debug.”</p>
+                    </div>
+                
+                    <div class="more-section">
+                        <h3>Fullstack Developer 💻</h3>
+                        <p>Why limit myself to one side of the web when I can have the best of both worlds? I'm a digital jack-of-all-trades, equally comfortable building stunning interfaces and ensuring they're backed by solid, reliable code. Frontend, backend—why not both? I'm like the Swiss Army knife of developers, minus the sharp edges.</p>
+                    </div>
+                
+                    <div class="more-section">
+                        <h3>UI/UX Designer 🎨</h3>
+                        <p>I don't just make things look good; I make them feel good too. Whether it's designing intuitive layouts or ensuring that every click brings users joy (or at least not frustration), I focus on creating smooth, user-friendly experiences. I believe good design is invisible, and if users don't notice how easy something was to use—mission accomplished!</p>
+                    </div>
+                
+                    <div class="more-section">
+                        <h3>Coffee Enthusiast ☕</h3>
+                        <p>Let's be real—none of this would be possible without a strong cup of coffee. Or three. If I'm not coding, I'm probably brewing up something… caffeinated.</p>
+                    </div>
+                </div>
+
+                <button class="btn" id="read-more-btn">Read More </button>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="sercides" id="services">
+        <h2 class="heading"> Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Web Development 🌐</h3>
+                <p>Turning ideas into fully functional websites</p>
+                <p> Whether you're looking for a slick portfolio, a dynamic e-commerce site, or a custom web application, I've got you covered. I build fast, responsive websites that look good on any device. From the first line of code to the final deployment, I ensure your site is not only beautiful but also optimized for performance and user experience. Need a website? Let's make it happen.</p>
+                <button class="btn" id="toggleButton1" onclick="toggleContent(1)">Learn More </button>
+                <div class="hidden" id="moreContent1">
+                    <p> <b>What is it?</b></p>
+                        <p>Web development is all about building websites that function seamlessly, from how they look on the outside (frontend) to how they work behind the scenes (backend). Whether you're showcasing your portfolio, selling products, or offering services, a well-built website is crucial for reaching your audience and achieving your goals.</p>
+                        
+                        <p><b>Why do you need it?</b></p>
+                        <p>In today's digital world, your website is often the first impression customers have of your brand. A sleek, fast, and user-friendly site makes people want to stick around (and maybe even hit that “buy” button). Without a solid website, you risk missing out on potential clients, customers, and growth opportunities. Plus, Google loves a well-optimized site!</p>
+                        
+                        <p><b>Why me?</b></p>
+                        <p>I don't just build websites—I build experiences. I'll create a site that's tailored to your needs, fast, responsive, and optimized for search engines. With my skillset, your site will not only look stunning but also run like a dream on any device. Oh, and if you ever get tired of it, I'll be right here to help refresh and revamp!</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-palette' ></i>
+                <h3>Graphic Design 🎨</h3>
+                <p>Bringing your vision to life, one pixel at a time.</p>
+                <p>Need a logo that pops? Or a brand identity that tells your story? My graphic design services are all about creating visuals that resonate. I design eye-catching graphics that communicate your message effectively, from social media assets to business cards. It's like crafting the perfect outfit for your brand—stylish, memorable, and just right.</p>
+                <button class="btn"  id="toggleButton2" onclick="toggleContent(2)">Learn More </button>
+                <div class="hidden" id="moreContent2">
+                    <p><b>What is it?</b></p>
+                        <p>Graphic design is the art of visual communication. It's all about making your brand stand out with stunning logos, social media graphics, marketing materials, and anything else that visually represents you. If you can visualise it, I can design it.</p>
+                        
+                        <p><b>Why do you need it?</b></p>
+                        <p>Lets face it: people judge a book by its cover. Strong visuals are the key to making a memorable first impression. Whether you're launching a product, branding your business, or simply trying to level up your Instagram game, good design makes a difference. It's the face of your brand, and you want that face looking sharp.</p>
+                        
+                        <p><b>Why me?</b></p>
+                        <p>You've got the vision—I've got the tools to bring it to life. I'll work with you to understand your brand, then design visuals that align with your message and stand out in a crowded market. Whether you need something bold, playful, or sophisticated, I'll make sure it's a perfect fit. Plus, I'm not just a designer; I'm a visual problem-solver who loves making things look good and work well.</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-desktop'></i>
+                <h3>UI/UX Design 🧩</h3>
+                <p>Because great design isn't just about looking good.</p>
+                <p>A good user experience is invisible—users just feel it. I create interfaces that are intuitive, easy to navigate, and designed with the end user in mind. Whether it's wireframing, prototyping, or the final pixel-perfect design, I focus on making every interaction smooth and enjoyable. Your users won't just visit your site—they'll love using it.</p>
+                <button class="btn" id="toggleButton3" onclick="toggleContent(3)">Learn More </button>
+                <div class="hidden"id="moreContent3">
+                    <p><b>What is it?</b></p>
+                        <p>UI (User Interface) design focuses on the look and layout of your website or app, while UX (User Experience) design ensures it's easy and enjoyable to use. Combined, UI/UX design creates products that not only look great but also make sense to your users—guiding them through every click, tap, and scroll effortlessly.</p>
+                        
+                        <p><b>Why do you need it?</b></p>
+                        <p>If your website or app is confusing or frustrating, users will leave faster than you can say “bounce rate.” A great UI/UX design keeps people engaged, satisfied, and coming back for more. It's about making your users feel like everything just works—because it does.</p>
+                        
+                        <p><b>Why me?</b></p>
+                        <p>I blend creativity with empathy, always putting your users first. I'll make sure your site or app isn't just beautiful but intuitive, functional, and a joy to use. I believe in design that works behind the scenes, quietly making everything better while users simply enjoy the ride. Whether it's wireframes, prototypes, or pixel-perfect final designs, I've got the experience and passion to make it happen.</p>
+                </div>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-line-chart'></i>   
+                <h3>SEO Services 🔍</h3>
+                <p>Helping your website get the spotlight it deserves.</p>
+                <p>What's the point of a great website if no one can find it? I'll help boost your visibility with my SEO services, from keyword research to on-page optimization. Get ready to rank higher on search engines and drive more organic traffic. It's like being the VIP at a digital party—everyone's looking for you!</p>
+                <button class="btn" id="toggleButton4" onclick="toggleContent(4)" >Learn More </button>
+                <div class="hidden" id="moreContent4">
+                    <p><b>What is it?</b></p>
+                       <p>Search Engine Optimization (SEO) is the process of improving your website so it ranks higher on search engines like Google. It's about making your site easier to find for people searching for your products or services. SEO involves keyword research, content optimization, technical tweaks, and more—all designed to increase your visibility and attract more visitors.</p>
+                        
+                       <p><b>Why do you need it?</b></p>
+                        <p>The internet is crowded, and without SEO, your amazing website might get lost in the noise. If you want to be found, SEO is non-negotiable. Higher rankings mean more traffic, and more traffic means more opportunities to convert visitors into customers.</p>
+                        
+                        <p><b>Why me?</b></p>
+                        <p>I'm not just about getting you traffic—I'm about getting you the right traffic. I'll optimize your site to rank higher for relevant searches, ensuring the people who land on your site are actually looking for what you offer. From keyword research to content adjustments and technical SEO, I'll help you rise through the ranks like a digital ninja. Let's make Google love your site.</p>
+                </div>
+            </div>
+            <div class="services-box" style="max-width: 500px; min-width: 450px;">
+                <i class='bx bxs-cog' ></i>  
+                <h3>System Development ⚙️</h3>
+                <p>Streamlining your processes behind the scenes.</p>
+                <p>Sometimes you need more than just a website—you need a fully integrated system that helps your business run efficiently. From custom software solutions to automation systems that save you time, I build systems that are as robust as they are user-friendly. Think of it as the engine that powers your business, quietly keeping everything running smoothly.</p>
+                <button class="btn"  id="toggleButton5" onclick="toggleContent(5)">Learn More </button>
+                <div class="hidden" id="moreContent5" >
+                    <p><b>What is it?</b></p>
+                        <p>System development refers to building custom software or automated systems that help your business run smoothly. From inventory management systems to automated customer service solutions, system development is all about creating tools that solve your unique business challenges.</p>
+                        
+                        <p><b>Why do you need it?</b></p>
+                        <p>If you've ever thought, “There must be an easier way to do this,” you probably need a custom system. Streamlining your business processes with custom software can save time, reduce errors, and boost productivity. You'll spend less time worrying about tedious tasks and more time focusing on growth.</p>
+                        
+                        <p><b>Why me?</b></p>
+                        <p>I create systems that don't just work—they work for you. I'll analyze your business needs and craft a custom solution that fits perfectly, automating the boring stuff so you can focus on the important things. Whether you need a system to manage your workflow or an app to handle customer interactions, I'll deliver something reliable, scalable, and tailored to your exact specifications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+     <!-- Portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"><span>Recent</span> and <span>Ongoing</span> Projects</h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./ecom.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <p>Built with React and Node.js, this sleek online store is designed for easy navigation and fast performance. Customers can browse products, add items to their cart, and securely check out. The integration of Mpesa makes it incredibly convenient for Kenyan shoppers, enabling quick and secure mobile payments. This app is scalable, responsive, and optimized for search engines, ensuring a smooth user experience on any device.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+                <h4>E-commerce Web App 🛒</h4>
+            </div>
+            <div class="portfolio-box">
+                <img src="./ems.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <p>Developed using Laravel, this system helps businesses manage employee records efficiently. From tracking attendance to handling payroll, it streamlines HR tasks and automates many processes, reducing administrative workload. With built-in reporting tools, employers can gain valuable insights into employee performance and productivity. It's tailored for small and medium enterprises, making it a perfect fit for Kenyan businesses looking to grow.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+                <h4>HR Employee Management System 🧑‍💼</h4>
+            </div>
+            <div class="portfolio-box">
+                <img src="./fms.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <p>Using PHP and MySQL, this system keeps track of farm operations, from animal records to feed management. Farmers can monitor livestock health, breeding cycles, and vaccination schedules, ensuring nothing falls through the cracks. It's designed for both small and large-scale farms, helping Kenyan farmers manage their livestock efficiently and boost productivity.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+                <h4>Animal Farm Management System 🐄</h4>
+            </div>
+            <div class="portfolio-box">
+                <img src="./pos.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <p>Built with React for the front end and Express.js for the back end, this POS system allows businesses to process sales quickly and track inventory in real-time. The Mpesa integration means customers can easily pay via mobile money, which is key for businesses in Kenya. The system is ideal for shops, restaurants, or any retail setting, offering robust functionality with a user-friendly interface.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+                <h4>Point of Sale (POS) System 🏪</h4>
+            </div>
+            <div class="portfolio-box">
+                <img src="./pms.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <p>Created with Django, this system helps property managers handle multiple properties and tenants. From tracking rent payments to managing maintenance requests, it simplifies the management process. Landlords can set reminders for lease renewals and generate financial reports, making it an all-in-one tool for real estate professionals in Kenya.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+                <h4>Property/Tenant Management System 🏢</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading"> GET <span>IN</span> TOUCH WITH <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="Full Name">
+                <input type="email" placeholder="Email Address" name="email">
+            </div>
+            <div class="input-box">
+             <input type="number" placeholder="Phone Number" name="Phone Number">
+             <input type="text" placeholder="Subject" name="Subject">
+            </div>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" name="" id="" value="Send Message" class="btn">
+        </form>
+    </section>
+
+
+    <!-- footer section -->
+
+     <footer class="footer" >
+        <div class="footer-text">
+           <p>Copyright &copy; 2024 by Joseph Keiyuru | All Rights Reserved. </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+     </footer>
+
+     <script src="https://unpkg.com/scrollreveal"></script>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
